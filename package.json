@@ -1,0 +1,18 @@
+{
+  "name": "icgsound",
+  "version": "1.0.0",
+  "description": "get and view data sound meters en santa marta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "circuit logic sas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.18.2",
+    "morgan": "^1.10.1"
+  }
+}
